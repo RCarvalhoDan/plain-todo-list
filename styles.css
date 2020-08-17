@@ -1,0 +1,32 @@
+:root {
+  --log: 1px solid red;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.insert {
+  display: flex;
+  justify-content: center;
+}
+
+.add-item {
+  align-self: center;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: block;
+}
