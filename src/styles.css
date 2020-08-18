@@ -17,7 +17,7 @@ h2 {
   justify-content: center;
 }
 
-.add-item {
+.add-task {
   align-self: center;
 }
 
@@ -29,6 +29,10 @@ ul {
 
 li {
   display: block;
+}
+
+.task {
+  padding: 0 5px 0px 5px;
 }
 
 .delete-button {
@@ -44,6 +48,6 @@ li {
   outline: none;
 }
 
-.done-item {
+.done-task {
   color: gray;
 }
