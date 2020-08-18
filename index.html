@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
     <title>To-Do List</title>
   </head>
 
@@ -16,59 +16,23 @@
           <input
             type="text"
             id="add-item"
-            value="Insert an item to your list"
+            placeholder="Insert an item to your list"
           />
         </div>
-        <ul id="todo-items">
-          <li>
-            <input type="checkbox" name="item" id="item1" />
-            Item 1
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item2" />
-            Item 2
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item3" />
-            Item 3
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item4" />
-            Item 4
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item5" />
-            Item 5
-          </li>
-        </ul>
+        <ul id="todo-items"></ul>
       </div>
       <div>
         <h2>Done</h2>
         <ul id="done-items">
-          <li>
+          <li class="done-item">
             <input type="checkbox" name="item" id="item1" />
-            Item 1
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item2" />
-            Item 2
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item3" />
-            Item 3
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item4" />
-            Item 4
-          </li>
-          <li>
-            <input type="checkbox" name="item" id="item5" />
-            Item 5
+            <span><s>Item 1</s></span>
+            <button class="delete-button"></button>
           </li>
         </ul>
       </div>
     </div>
 
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="./src/main.js"></script>
   </body>
 </html>

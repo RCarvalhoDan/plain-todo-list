@@ -30,3 +30,20 @@ ul {
 li {
   display: block;
 }
+
+.delete-button {
+  height: 14px;
+  width: 14px;
+  border: none;
+  background-position: center;
+  background-image: url(../assets/icons8-delete.svg);
+  cursor: pointer;
+}
+
+.delete-button:focus {
+  outline: none;
+}
+
+.done-item {
+  color: gray;
+}
